@@ -20,7 +20,7 @@ public class AccountMain {
 		double current = 0, withdr = 0;
 
 		Scanner sc = new Scanner(System.in);
-		System.out.println("Bank Name\nAccount Number\nPassword\nAccount Balance");
+		System.out.println("Bank Name\n1.Account Number\n2.Password\n3.Account Balance");
 		bank = sc.next();
 		accNo = sc.nextInt();
 		pass = sc.next();
